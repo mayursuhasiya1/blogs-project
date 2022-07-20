@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    background-color: #456890;
+}
+
+.logo
+{
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.name 
+{
+    width: 100%;
+    /* margin-left: auto; */
+    margin-right: auto;
+    color: #eceeec;
+    float: left;
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: "Quicksand";
+
+
+}
+
+.add-button
+{
+        text-decoration: none;
+        display: inline;        
+        padding:5px;
+        margin-right: 10px;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 1px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: #ffff0e;
+        color: rgb(13, 14, 11);
+        
+        
+}
+
+ul li 
+{
+        display: inline;
+        padding-right: 30px;
+        font-weight: 500;
+        color: rgb(13, 14, 11);
+}
+
+.nav-list ,li
+{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+nav 
+{
+    font-size: 25px;
+    background-color: rgb(93, 147, 213);
+    color: #cccccc;
+    height: 75px;
+}
+    
+ul 
+{
+    position:fixed;
+    right:10px;
+}
+
+
+
+/* create new blog form */
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Quicksand";
+
+  }
+  .create label {
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+  }
+  .create h2 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 30px;
+    
+  }
+
+
+  .create input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #fbfbfb;
+    box-sizing: border-box;
+    display: block;
+    background-color: #cccccc;
+    font-size: 20px;
+    
+  }
+
+  .create input,textarea
+  {
+    background-color: #cccccc;
+  }
+  
+  .create button {
+    background: #f1356d;
+    margin-top: 20px;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+    /* blog list */
+    /* not used now */
+.blog {
+    margin-top: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    }
+
+.post 
+{
+    margin-top:10px;
+    float: left;
+}
+    
+.blogHeader 
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
